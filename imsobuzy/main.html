@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Notes</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='style.css'>
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <div class="textPreviousDiv">
+    <p><b>    ADD NOTE:</b></p>
+    </div>
+
+    <div class = "addNoteDiv">
+        <!--
+        <form action="handler.php">
+            <p><textarea name="comment"></textarea></p>
+            <input class="enterTask" type="text" placeholder="Enter text..."> 
+            <textarea class='text' name="comment"></textarea>
+        </form>-->
+        <input class="text" type="text" placeholder="enter text.."> 
+        
+    </div>
+
+    <div class="choiceDiv">
+        <select class="selectLvl">
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+          </select> 
+        <!--<p><input type="submit" class="b1" value="add note" onclick="CreateTask()"></p>-->
+        <button class="add" onclick="CreateTask()">add note</button>
+    </div>
+
+    <div class="checkItDiv">
+        <p id="complited" class="ch"><input type="checkbox" value="complited">   complited</p>
+        <p id="high" class="ch"><input type="checkbox" value="high">   high</p>
+        <p id="medium" class="ch"><input type="checkbox" value="medium">   medium</p>
+        <p id="low" class="ch"><input type="checkbox" value="low">   low</p>
+    </div>
+    
+
+    
+</body>
+</html>
